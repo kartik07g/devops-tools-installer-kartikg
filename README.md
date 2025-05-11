@@ -18,6 +18,15 @@ A community-maintained collection of bash scripts to simplify the installation o
 - SonarQube
 - (And more coming soon!)
 
+### master Bash script that presents a menu for installing DevOps tools interactively. This script calls each individual installation script (like ansible.sh, helm.sh, etc.) from the directory.
+```all_in_one.sh``` — Master script to install DevOps tools
+
+✅ How to Use:
+- Place this script in the install/ directory alongside the other install_*.sh files.
+- Make it executable
+- chmod +x all_in_one.sh
+- Run it: ./all_in_one.sh
+
   
 ### 🤝 Contributing
 #### We welcome all contributions! You can: 
